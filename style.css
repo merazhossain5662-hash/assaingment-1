@@ -75,6 +75,8 @@ main{
     background-color: transparent;
     border: 1px solid #ffffff;
     margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.3 ease;
 }
 button{
     margin-top: 20px;
@@ -153,7 +155,13 @@ button{
 } 
 #last{
     text-align: center;
-    color: #ffffff;
+    
+    
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 45px;
+    margin-top: 0;
+    /* margin:30px ; */
 }
 footer{
     background-color: #001931;
@@ -190,4 +198,13 @@ button:hover {
    
     transform: translateY(-4px); 
     box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+#btn2:hover{
+    background: #30b868;
+    border-color: #28a745;
 }
