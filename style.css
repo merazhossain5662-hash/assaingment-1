@@ -9,6 +9,11 @@ body{
     background-color: whitesmoke;
 }
 
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
 .navdiv{
     display: flex;
     align-items: center;
