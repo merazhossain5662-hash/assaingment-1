@@ -4,7 +4,7 @@
      box-sizing: border-box;
      text-decoration: none;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 body{
     background-color: whitesmoke;
 }
@@ -76,9 +76,11 @@ main{
     border: 1px solid #ffffff;
     margin-left: 15px;
 }
-#btn{
+button{
     margin-top: 20px;
     padding-left: 20px;
+    cursor: pointer;
+    transition: 0.3 ease;
 }
 .hero{
     padding-bottom: 40px;
@@ -137,4 +139,55 @@ main{
 .p3{
    color: #627382;
 }   
+.last{
+    text-align: center;
+    padding-top:80px ;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #dbd7d7;
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+} 
+#last{
+    text-align: center;
+    color: #ffffff;
+}
+footer{
+    background-color: #001931;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    gap: 80px;
+}
+.icons{
+    color: #ffffff;
+    border-radius: 50%;
+}
+#sop{
+    color: #ffffff;
+   
+}
 
+#facebook{
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: black;
+}
+#twter{
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: black;
+}
+hr{
+    font-weight: lighter;
+      opacity: 20%;
+}
+button:hover {
+   
+    transform: translateY(-4px); 
+    box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+}
