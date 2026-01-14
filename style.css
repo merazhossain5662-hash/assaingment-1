@@ -23,6 +23,7 @@ body{
     padding-bottom: 16px;
     padding-left: 120px;
     background-color: beige;
+    flex-wrap: wrap;
 }
 ul{
     display: flex;
@@ -112,6 +113,7 @@ button{
     justify-content: center;
     flex-wrap: wrap;
       margin-top: 20px;
+      gap: 45px;
 }
 .card{
     width: 322px;
@@ -217,3 +219,29 @@ footer #last2{
     text-align: center;
     color: #c9c6c6;
 }
+@media screen and (max-width:556px) {
+     .navdiv{
+        gap: 20px;
+     }
+    
+    .image img{
+          width: 100%;
+        } 
+        .section2{
+           flex-wrap: wrap;
+           align-items: center;
+           margin: 0 auto;
+           text-align: center;
+        }
+}
+@media screen and (min-width:556px) and (max-width:950px){
+    .section2{
+           flex-wrap: wrap;
+           align-items: center;
+           margin: 0 auto;
+           text-align: center;
+        }
+          .image img{
+          width: 100%;
+        } 
+    } 
